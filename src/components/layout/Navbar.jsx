@@ -45,7 +45,7 @@ const Navbar = () => {
   }, [userMenu]);
 
   const navLinks = [
-    { name: 'Home', path: '/', icon: Home },
+   
     { name: 'Properties', path: '/properties', icon: Search },
     { name: 'Projects', path: '/projects', icon: Building2 },
     { name: 'Agents', path: '/agents', icon: User },
