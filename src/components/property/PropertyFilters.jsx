@@ -399,15 +399,7 @@ const PropertyFilters = ({
           </div>
         </div>
 
-        {/* Auto-apply notice (desktop) */}
-        {!isMobile && (
-          <div className="bg-primary-50 border border-primary-100 rounded-lg p-3 flex items-start gap-2">
-            <span className="text-primary-600 text-lg leading-none">⚡</span>
-            <p className="text-xs text-primary-700">
-              Filters apply <strong>automatically</strong>. Price changes on slider release.
-            </p>
-          </div>
-        )}
+        
 
         {/* Mobile action buttons */}
         {isMobile && (
